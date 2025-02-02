@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Студия веб-разработки</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Студия веб-разработки</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#portfolio">Портфолио</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h2>Создаем современные и эффективные сайты</h2>
+            <p>Мы разрабатываем уникальные веб-решения, которые помогают вашему бизнесу расти.</p>
+            <a href="#contact" class="btn">Оставить заявку</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>О нас</h2>
+            <p>Мы — команда профессионалов, специализирующихся на создании веб-сайтов и приложений. Наш опыт позволяет нам реализовывать проекты любой сложности.</p>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2>Наши услуги</h2>
+            <div class="services-grid">
+                <div class="service">
+                    <h3>Веб-дизайн</h3>
+                    <p>Создаем уникальный и привлекательный дизайн для вашего сайта.</p>
+                </div>
+                <div class="service">
+                    <h3>Разработка сайтов</h3>
+                    <p>Полный цикл разработки: от идеи до запуска.</p>
+                </div>
+                <div class="service">
+                    <h3>SEO-оптимизация</h3>
+                    <p>Повышаем видимость вашего сайта в поисковых системах.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <h2>Портфолио</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="project1.jpg" alt="Проект 1">
+                    <p>Проект 1</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="project2.jpg" alt="Проект 2">
+                    <p>Проект 2</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="project3.jpg" alt="Проект 3">
+                    <p>Проект 3</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Оставить заявку</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Имя:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Сообщение:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn">Отправить</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Студия веб-разработки. Все права защищены.</p>
+        </div>
+    </footer>
+</body>
+</html>
